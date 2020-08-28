@@ -1,0 +1,537 @@
+# Constructed from biom file;;;;;;;;
+#OTU ID;S1;taxonomy;;;;;;
+CID_1372640;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1072629;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_6548;6.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__
+CID_251182;7.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__; s__
+CID_106028;108544.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_42639;20.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus sciuri
+CID_392422;2.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_464176;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1651157;24.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_91852;671.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas asaccharolytica
+CID_39744;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Inquilinus; s__
+CID_89801;11.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_1250094;4.0;k__Bacteria; p__; c__; o__; f__; g__Sediminibacterium; s__
+CID_444754;21.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_310933;44.0;k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__C1_b004; s__
+CID_464490;21.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Mycoplana; s__
+CID_10058;472.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bosea; s__Bosea genosp.
+CID_444752;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_4630;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__
+CID_429432;60.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Rikenellaceae rc9 gu; s__
+CID_1536981;16.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_989066;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1388503;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_337052;4.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Leuconostocaceae; g__Leuconostoc; s__Leuconostoc mesenteroides
+CID_50870;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_25044;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Altererythrobacter; s__
+CID_1362727;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas echinoides
+CID_9541;2.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Dinghuibacter; s__
+CID_124147;40.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family xi; g__Anaerococcus; s__
+CID_92186;375.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium japonicum
+CID_1610472;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__; g__; s__
+CID_381590;6.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Leuconostocaceae; g__Leuconostoc; s__
+CID_1292441;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella; s__
+CID_233219;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__
+CID_436730;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__
+CID_550297;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__; s__
+CID_559713;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_17127;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__Roseococcus; s__
+CID_452209;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Aurantimonadaceae; g__Aurantimonas; s__Aurantimonas l200b.634
+CID_18167;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Arthrospira; s__Arthrospira ginsengisoli
+CID_1425131;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_342781;27.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Segetibacter; s__
+CID_342780;2.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Segetibacter; s__
+CID_94686;110.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__
+CID_1170867;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_119430;7412.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__
+CID_85175;42.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_661818;23.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_154265;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_48462;92.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bosea; s__Bosea genosp.
+CID_48166;97.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Flavisolibacter; s__
+CID_48746;12.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus equorum
+CID_209897;72.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Cutibacterium; s__Cutibacterium acnes subsp. defendens atcc 11828
+CID_3815;15.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidetes incertae sedis; o__Order ii; f__Rhodothermaceae; g__; s__
+CID_1424717;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas wittichii
+CID_122514;95.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__; g__; s__
+CID_8715;149.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__
+CID_482167;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas azotifigens
+CID_673092;48.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium granulosum
+CID_1436414;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_103148;63.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Agrobacterium; s__
+CID_248517;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_169832;37.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Betaproteobacteriales; f__Burkholderiaceae; g__Delftia; s__
+CID_81590;261.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Micrococcus; s__Micrococcus luteus
+CID_5658;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Paenibacillaceae; g__Paenibacillus; s__Paenibacillus lentimorbus
+CID_350873;17.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_392649;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_1043555;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseococcus; s__
+CID_45910;2425.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_295278;13.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium granulosum
+CID_559874;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_559873;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_559878;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_642279;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_173978;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Microvirga; s__
+CID_1409857;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Da111; g__Alpha proteobacteria; s__
+CID_645955;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__195up; f__; g__; s__
+CID_39742;2.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_109919;8.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Psychrobacter; s__Psychrobacter marincola
+CID_110531;23.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__; s__
+CID_405784;20.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_252136;3.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__
+CID_1268086;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_295962;3.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_9283;145.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Flavihumibacter; s__
+CID_15067;6.0;k__Bacteria; p__Tenericutes; c__Mollicutes; o__Haloplasmatales; f__Haloplasmataceae; g__Haloplasma; s__
+CID_246280;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bosea; s__Bosea genosp.
+CID_9284;11.0;k__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Cryomorphaceae; g__Fluviicola; s__
+CID_464202;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_6348;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Rarobacteraceae; g__Rarobacter; s__
+CID_91569;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_9326;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Beijerinckia; s__Beijerinckia indica
+CID_21549;16.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Betaproteobacteriales; f__Burkholderiaceae; g__Delftia; s__
+CID_10322;8.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Delftia; s__
+CID_1610761;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_2957;7.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Thermoactinomycetaceae; g__; s__
+CID_2164616;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Azospirillum; s__Azospirillum sp.
+CID_2954;36.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Thermoactinomycetaceae; g__Thermoflavimicrobium; s__Thermoflavimicrobium g+c gram-positive ba
+CID_5858;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micromonosporales; f__Micromonosporaceae; g__Actinoplanes; s__
+CID_80657;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_149132;6.0;k__Bacteria; p__Epsilonbacteraeota; c__Campylobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfuricurvum; s__Sulfuricurvum kujiense
+CID_1612824;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_768758;3.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__
+CID_52039;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__Sm2d12; g__; s__
+CID_36592;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__
+CID_1538971;2.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_1318658;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_298415;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Rhodoplanes; s__
+CID_225616;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__; s__
+CID_244733;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__; s__
+CID_329542;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_366792;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_429279;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Rikenellaceae rc9 gu; s__
+CID_126484;8.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Epulopiscium; s__
+CID_1952;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Loktanella; s__Loktanella vestfoldensis
+CID_1953;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Desulfurivibrio; s__Desulfurivibrio alkaliphilus
+CID_76547;24.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter lwoffii
+CID_14953;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Amorphomonas; s__Amorphomonas oryzae
+CID_464337;417.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Enhydrobacter; s__
+CID_452961;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_47516;288.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas echinoides
+CID_4856;4.0;k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__; s__
+CID_861915;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_13882;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingopyxis; s__81604
+CID_626770;76.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylorosula; s__
+CID_225258;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__; s__
+CID_4315;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__; f__; g__; s__
+CID_151616;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__; f__; g__; s__
+CID_15705;19.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Flavisolibacter; s__
+CID_832526;40.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_155845;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bartonellaceae; g__Bartonella; s__
+CID_866692;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_87059;17.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium sp. oral strain a43s
+CID_83664;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Orca-3n101; g__Sphingomonas sp. qss; s__Sphingomonas sp. qss sp. qssc5-6
+CID_1603269;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Balneimonas; s__
+CID_91651;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sandaracinobacter; s__
+CID_8465;268.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas wittichii
+CID_1658390;2.0;k__Bacteria; p__; c__; o__; f__; g__Novosphingobium; s__
+CID_124325;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_265050;2.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Kd3-93; g__; s__
+CID_1335844;76.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_1045205;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_1546046;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Ensifer; s__Ensifer sp. jnvu pc16
+CID_448709;19.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__; s__
+CID_511861;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Agrobacterium; s__
+CID_1019441;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Beijerinckia; s__
+CID_23084;2.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__; s__
+CID_3082;5.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Enterobacter; s__Enterobacter aerogenes
+CID_470046;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium bacterium enrichment
+CID_348366;3.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__; s__
+CID_260203;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__; s__
+CID_485340;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_175562;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_393895;164.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella; s__
+CID_79056;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__; s__
+CID_175227;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Dssf69; g__; s__
+CID_34654;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__; s__
+CID_1300046;2.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__; s__
+CID_238542;6.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium cystitidis
+CID_6555;63.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bcf3-20; g__Rhodoplanes; s__
+CID_45543;4.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Moraxella; s__
+CID_110261;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_618661;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_307369;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__; s__
+CID_161040;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Nitrobacteria; s__Nitrobacteria hamadaniensis
+CID_3722;2.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Nb1-j; f__; g__; s__
+CID_832029;34.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_1696136;6.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rs-e47 termite group; g__; s__
+CID_299027;2.0;k__Bacteria; p__Proteobacteria; c__; o__; f__; g__; s__
+CID_14036;17.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus sciuri
+CID_350831;99.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Altererythrobacter; s__
+CID_550348;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter; s__
+CID_42443;8.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Phycicoccus; s__
+CID_40056;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__Bauldia; s__
+CID_77807;442.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus epidermidis atcc 12228
+CID_10313;4.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Herbaspirillum; s__
+CID_250386;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_10317;4869.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_50802;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__Roseomonas; s__Roseomonas sp. r-1
+CID_175240;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_20583;26.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_11968;4.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Rikenellaceae rc9 gu; s__
+CID_831508;3.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_8929;457.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Telmatospirillum; s__Telmatospirillum ls-2
+CID_333050;3.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__; s__
+CID_85422;103.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__
+CID_726682;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_43601;3.0;k__Bacteria; p__Firmicutes; c__; o__; f__; g__Sporanaerobacter; s__
+CID_12063;3.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__; s__
+CID_12416;2.0;k__Bacteria; p__; c__; o__; f__; g__Pseudomonas; s__
+CID_14864;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Ensifer; s__
+CID_3398;12.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__; s__
+CID_549687;6.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_91818;93.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_298247;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_46010;13.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus sulfureus
+CID_1376967;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_3598;41.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nkb5; f__Gamma proteobacterium; g__Gamma proteobacteria; s__
+CID_444307;4.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Carnobacterium; s__
+CID_174010;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_250337;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Jg34-kf-161; g__Soil; s__
+CID_4050;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Renibacterium; s__
+CID_4360;3.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__
+CID_765439;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__
+CID_3352;2.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__[eubacterium] oxidoreducens group; s__[eubacterium] oxidoreducens group rumen bacterium rfn66
+CID_13249;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Streptosporangiales; f__Thermomonosporaceae; g__Actinomadura; s__
+CID_17143;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__; s__
+CID_1503674;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Erythrobacter; s__
+CID_712958;6.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_2151626;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__; g__Pseudomonas; s__Pseudomonas carboxydohydrogena
+CID_8512;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus sp. tut1021
+CID_23577;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__; s__
+CID_40086;12.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__; s__
+CID_298012;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_983970;546.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas yabuuchiae
+CID_123888;3.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family xi; g__Anaerococcus; s__
+CID_1072848;12.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_249163;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__; s__
+CID_124213;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_23036;4.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidia incertae sedis; f__Draconibacteriaceae; g__; s__
+CID_30070;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Pseudonocardiales; f__Pseudonocardiaceae; g__Actinomycetospora; s__
+CID_429143;189.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_13749;2.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Saprospiraceae; g__; s__
+CID_8585;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__Agaricicola; s__
+CID_145030;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium rhodesianum
+CID_145031;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_559965;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_349565;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_451186;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__Rickettsiales incertae sedis; g__Candidatus; s__Candidatus odyssella
+CID_34018;3.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Mycoavidus; s__
+CID_500903;18.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_1366445;3.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_91172;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas yabuuchiae
+CID_93158;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_3767;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__; s__
+CID_3766;12.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kordiimonadales; f__Temperatibacteraceae; g__Temperatibacter; s__
+CID_23118;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__Sphingobium bacterium hinf002
+CID_479221;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingopyxis; s__Sphingopyxis alaskensis
+CID_550302;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_168790;51.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Brevundimonas; s__
+CID_356882;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_37501;16.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__
+CID_1667119;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__
+CID_105616;632.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_151040;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__; s__
+CID_781366;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_449159;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_9075;2.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae 1; g__Clostridium; s__Clostridium intestinale
+CID_1327834;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1301310;9.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella; s__
+CID_40747;1242.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_40745;3930.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_164806;18.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium elkanii
+CID_48674;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylobacterium; s__Methylobacterium komagatae
+CID_1410739;3.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_39765;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Rhodoplanes; s__
+CID_298546;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_9531;41.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__1174-901-12; g__; s__
+CID_233083;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_770010;2.0;k__Bacteria; p__; c__; o__; f__; g__Kaistobacter; s__
+CID_227368;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sd04e11; g__; s__
+CID_12320;2.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Desulfuromonadaceae; g__Desulfuromonas; s__
+CID_4248;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__
+CID_93666;4.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__
+CID_330830;25.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_250801;3.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__
+CID_15805;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Rhodoplanes; s__
+CID_18716;4.0;k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurovum; s__
+CID_298680;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_565133;21.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__
+CID_330798;5.0;k__Bacteria; p__Cyanobacteria; c__Oxyphotobacteria; o__; f__; g__; s__
+CID_1538892;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__; s__
+CID_866110;5.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_869371;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__Acidiphilium; s__
+CID_1057187;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__; s__
+CID_1127373;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_85845;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_395717;4.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Oscillospira; s__
+CID_1165005;4.0;k__Bacteria; p__; c__; o__; f__; g__Roseomonas; s__Roseomonas mucosa
+CID_359249;12.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_363739;12.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__; s__
+CID_782820;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_119942;2.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family xi; g__Anaerococcus; s__
+CID_8213;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Paenibacillaceae; g__Paenibacillus; s__
+CID_172334;4.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fragi
+CID_106872;20.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas sp. mn 122.2a
+CID_225406;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__; s__
+CID_243628;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_18910;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Rhodoplanes; s__
+CID_1658478;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__; s__
+CID_161631;4.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium sp. 110960
+CID_209111;2.0;k__Bacteria; p__Actinobacteria; c__Micrococcales; o__Micrococcaceae; f__; g__Micrococcus; s__Micrococcus luteus nctc 2665
+CID_89540;982.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_154308;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_8092;9.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Janibacter; s__Janibacter sp. yy-1
+CID_125660;30.0;k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Acidobacteriaceae (subgroup 1); g__Terriglobus; s__
+CID_649521;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_30323;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Arsenicicoccus; s__Arsenicicoccus piscis
+CID_12312;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__; s__
+CID_81179;4.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Saprospiraceae; g__; s__
+CID_1530920;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Rhodopseudomonas; s__
+CID_6565;6.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family xiii; g__Family xiii ucg-002; s__
+CID_2277;164.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Fulvimarina; s__
+CID_244740;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__Phreatobacter; s__
+CID_453054;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Erythrobacter; s__Erythrobacter sp. car-8047
+CID_5587;56.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas symbiont tw-6
+CID_310592;12.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Dermacoccaceae; g__Dermacoccus; s__
+CID_479315;3.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_17334;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__; s__
+CID_2158546;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Listeriaceae; g__Brochothrix; s__Brochothrix campestris
+CID_107085;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_162986;3.0;k__Bacteria; p__Spirochaetae; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta 2; s__
+CID_92723;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas yabuuchiae
+CID_42059;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__
+CID_1403640;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1340050;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Micrococcus; s__Micrococcus luteus
+CID_45146;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Neoasaia; s__Neoasaia chiangmaiensis
+CID_158936;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Nitrobacter; s__
+CID_340013;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Devosia; s__
+CID_124045;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_10305;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_155246;7.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus caprae
+CID_96739;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_554285;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sd04e11; g__; s__
+CID_9127;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Agrobacterium; s__Agrobacterium vitis
+CID_1168040;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__Roseomonas mucosa
+CID_431060;2.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__; s__
+CID_13879;1144.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas azotifigens
+CID_3193;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium; s__Microbacterium laevaniformans
+CID_1665952;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__; s__
+CID_770513;4.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Gammaproteobacteria incertae sedis; f__; g__; s__
+CID_148994;24.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Lentimicrobiaceae; g__; s__
+CID_1068304;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_5574;1325.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__
+CID_3785;21.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Saprospiraceae; g__; s__
+CID_46653;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Arthrobacter; s__Arthrobacter sp. rh-19
+CID_356888;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_356697;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Paenibacillaceae; g__; s__
+CID_7182;7.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_93821;2.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__; s__
+CID_50044;28.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Micrococcus; s__Micrococcus luteus
+CID_155830;11.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylobacterium; s__
+CID_3581;85.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Salinarimonas; s__
+CID_250325;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_321800;4.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_302886;4.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Coxiellaceae; g__Coxiella; s__
+CID_3344;24.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__; s__
+CID_1546569;24.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Agrobacterium; s__
+CID_1610593;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_92526;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_660178;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_103369;57.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Chelatococcus; s__
+CID_31767;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sneathiellales; f__Sneathiellaceae; g__Phaeospirillum; s__Phaeospirillum fulvum
+CID_3870;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Alphaproteobacteria incertae sedis; f__; g__; s__
+CID_869389;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_24564;7.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Leuconostocaceae; g__Leuconostoc; s__Leuconostoc gelidum subsp. gasic
+CID_648869;40.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium aurimucosum
+CID_420862;6.0;k__Bacteria; p__Planctomycetes; c__Phycisphaerae; o__Phycisphaerales; f__Phycisphaeraceae; g__Sm1a02; s__
+CID_1173998;2.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_793003;7.0;k__Bacteria; p__Hydrogenedentes; c__Hydrogenedentia; o__Hydrogenedentiales; f__; g__; s__
+CID_251315;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Chitinophaga; s__
+CID_4980;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Acetobacter; s__
+CID_2711;29.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Novispirillum; s__
+CID_3530;7.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__
+CID_39743;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__Bauldia; s__
+CID_15207;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__
+CID_292380;90.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__; s__
+CID_298993;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__; s__
+CID_9760;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Tetrasphaera; s__
+CID_258598;12.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingopyxis; s__Sphingopyxis alaskensis
+CID_9767;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicimonas; s__
+CID_1424763;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_10699;26.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_18961;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_93009;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Pseudarthrobacter; s__Pseudarthrobacter sp. kaza-36
+CID_1109836;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Betaproteobacteriales; f__Burkholderiaceae; g__Delftia; s__
+CID_49259;92.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus bacterium k2f20
+CID_47408;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_559556;208.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_12957;9.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Tyzzerella 3; s__
+CID_552862;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__Roseomonas; s__
+CID_105600;187.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_258299;11.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Jg34-kf-161; g__; s__
+CID_555012;232.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Enhydrobacter; s__
+CID_24606;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Alphai cluster; g__; s__
+CID_971907;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Kaistobacter; s__
+CID_971906;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1387090;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_289470;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Orca-3n101; g__; s__
+CID_1692549;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_93728;24.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_528266;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_298921;6.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_19311;2.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Oxalobacter; s__
+CID_2157083;3.0;k__Bacteria; p__Actinobacteria; c__Micrococcales; o__Dermacoccaceae; f__; g__Dermacoccus; s__
+CID_39770;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Dichotomicrobium; s__
+CID_298533;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1021463;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1186121;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_722012;9.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_486796;2.0;k__Bacteria; p__Hydrogenedentes; c__Hydrogenedentia; o__Hydrogenedentiales; f__; g__; s__
+CID_4876;3.0;k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfuricurvum; s__Sulfuricurvum kujiense
+CID_781896;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_853623;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Parasphingopyxis; s__
+CID_43597;4.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Macellibacteroides; s__
+CID_98309;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Aerococcaceae; g__Facklamia; s__
+CID_7133;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Phenylobacterium; s__
+CID_96606;9.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__
+CID_112205;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus hominis
+CID_5274;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__
+CID_16429;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Mesorhizobium; s__
+CID_48614;4.0;k__Bacteria; p__; c__; o__; f__; g__Acinetobacter; s__
+CID_559486;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1245523;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium acnes
+CID_754363;5.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_363877;4.0;k__Bacteria; p__Acidobacteria; c__Acidobacteria; o__Acidobacteriales; f__Acidobacteriaceae (subgroup 1); g__; s__
+CID_92585;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_1651098;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_431721;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_2158478;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Afipia; s__Afipia felis
+CID_35650;11.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Lutibacterium; s__
+CID_281942;6.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Roseburia; s__
+CID_22556;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Thalassospiraceae; g__Thalassospira; s__
+CID_13647;4.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicimonas; s__
+CID_1610536;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Altererythrobacter; s__
+CID_1646249;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__; s__
+CID_14441;68400.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_294732;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Rhodoplanes; s__
+CID_14523;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingosinicella; s__Sphingosinicella microcystinivorans
+CID_621510;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_122014;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Phenylobacterium; s__
+CID_7380;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiales incertae sedis; g__Rhizomicrobium; s__
+CID_479304;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__; s__
+CID_39258;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium organophilum
+CID_222047;2.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_363702;17.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Christensenellaceae; g__Christensenellaceae; s__
+CID_312450;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Mesorhizobium; s__Mesorhizobium sp. hue-3
+CID_1001618;7.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__
+CID_238824;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas adhaesiva
+CID_238822;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas sp. osg-47
+CID_1424724;78.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__
+CID_833199;7.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_482152;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas azotifigens
+CID_298213;8.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_80899;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Desemzia; s__
+CID_3801;8.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Sinorhizobium; s__
+CID_1445533;10.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Saprospiraceae; g__Lewinella; s__
+CID_330736;13.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_363843;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_1334784;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_95146;38.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bosea; s__Bosea genosp.
+CID_2284;2.0;k__Bacteria; p__Proteobacteria; c__Zetaproteobacteria; o__Mariprofundales; f__Mariprofundaceae; g__Mariprofundus; s__
+CID_1405114;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_297681;18.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_1546656;4.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Flavihumibacter; s__
+CID_256860;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter; s__Caulobacter henricii
+CID_96397;12.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bosea; s__Bosea genosp.
+CID_3057;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium; s__
+CID_328958;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_479300;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1055044;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__; s__
+CID_79249;2.0;k__Bacteria; p__Acidobacteria; c__Solibacteres; o__Solibacterales; f__Solibacteraceae (subgroup 3); g__Bryobacter; s__Bryobacter soil bacterium clone
+CID_1438905;26.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Sar324 clade(marine group b); f__; g__; s__
+CID_160534;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidithiobacillales; f__Acidithiobacillaceae; g__Acidithiobacillus; s__Acidithiobacillus albertensis
+CID_479322;6.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_24891;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__; g__Endolith; s__
+CID_111944;14.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia; s__
+CID_246760;11.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__; g__Corynebacterium; s__
+CID_386381;12.0;k__Bacteria; p__; c__; o__; f__; g__Catenibacterium; s__
+CID_1532335;8.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Chitinophaga; s__
+CID_1716782;4.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1401588;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_1546845;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__; s__
+CID_465037;21.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Afipia; s__
+CID_174082;2.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Chitinophagales; f__; g__; s__
+CID_1040738;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__; s__
+CID_1054343;10.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Dongia; s__
+CID_50282;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Promicromonosporaceae; g__Promicromonospora; s__
+CID_759815;5.0;k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__M2pb4-65 termite group; g__; s__
+CID_4329;5.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Diaphorobacter; s__Diaphorobacter rm4
+CID_85406;3.0;k__Bacteria; p__Chlorobi; c__Chlorobia; o__Chlorobiales; f__Opb56; g__; s__
+CID_404828;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Betaproteobacteriales; f__Burkholderiaceae; g__Delftia; s__
+CID_481937;53.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Oligoflexales; f__Oligoflexaceae; g__; s__
+CID_22671;45.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_6673;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Agrobacterium; s__
+CID_754810;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Afipia; s__
+CID_9419;1336.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Rhodoplanes; s__
+CID_971632;3.0;k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Myxococcales; f__Haliangiaceae; g__; s__
+CID_2168407;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus haemolyticus
+CID_107097;3.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Taibaiella; s__
+CID_5349;3.0;k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Eubacteriaceae; g__Pseudoramibacter_eubacterium; s__
+CID_6609;3.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Buchnera; s__Buchnera aphidicola
+CID_769725;37.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Taibaiella; s__
+CID_1022791;4.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Granulicatella; s__
+CID_7229;225.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Chitinophaga; s__
+CID_126326;25.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter; s__
+CID_370047;5.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas veronii
+CID_12297;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__; f__; g__; s__
+CID_172260;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_46483;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__; s__
+CID_1694893;3.0;k__Bacteria; p__; c__; o__; f__; g__; s__
+CID_246313;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__; s__
+CID_13506;12.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicimonas; s__
+CID_8992;751.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__
+CID_17331;164.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_208551;4.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus aureus subsp. aureus usa300_fpr3757
+CID_127500;5.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__
+CID_78686;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia sp. ic169
+CID_306350;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas yabuuchiae
+CID_327320;4.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella; s__
+CID_261106;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillales incertae sedis; g__Candidatus; s__Candidatus alysiosphaera
+CID_10721;68.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__; s__
+CID_10723;9.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Da111; g__; s__
+CID_8872;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Novispirillum; s__
+CID_92193;39.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium japonicum
+CID_8195;13.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Brucellaceae; g__Ochrobactrum; s__
+CID_1695499;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Brevundimonas; s__
+CID_156030;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae; g__Altererythrobacter; s__
+CID_262728;34.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__; s__
+CID_780188;3.0;k__Bacteria; p__Cloacimonetes; c__; o__; f__; g__; s__
+CID_108662;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylosinus; s__
+CID_25383;2.0;k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__; s__
+CID_2891;3.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus luteciae
+CID_40194;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Frankiales; f__Sporichthyaceae; g__; s__
+CID_1308157;2.0;k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus aureus
+CID_146161;3.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__
+CID_114846;2.0;k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__
+CID_15091;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Telmatospirillum; s__
+CID_35795;3.0;k__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Chitinophagaceae; g__Sediminibacterium; s__
+CID_46211;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Acetobacteraceae; g__Roseomonas; s__Roseomonas aerilata
+CID_107897;2.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Dermabacteraceae; g__Brachybacterium; s__
+CID_264699;2.0;k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Zymomonas; s__
+CID_48241;2.0;k__Bacteria; p__; c__; o__; f__; g__Arthrobacter; s__
+CID_1323665;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__
+CID_4523;3.0;k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Agromyces; s__

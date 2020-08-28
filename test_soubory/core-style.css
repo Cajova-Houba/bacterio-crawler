@@ -1,0 +1,460 @@
+/*This is the core style sheet for LPSN*/
+
+
+
+body {
+color: black;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 0.9em;
+margin: 0em;
+background-color: white; 
+background-image: none;
+border: none;
+position: relative; }
+
+
+
+#main-text h2, h3 {
+color: #666666;
+position: relative; }
+
+#main-text h4, h5 {
+color: #666666;
+position: relative;
+}
+
+#headerleft {
+position: fixed;
+left: 5px; 
+height: 100px;
+top: 0px;
+border: 1px none;
+border-top: none;
+border-left: none;
+border-right: none;
+background-image: url(images/lpsnheaderleft.gif);
+background-repeat: no-repeat;
+background-color: white;
+width: 198px;
+
+
+ }
+ 
+/*Taken from http://haacked.com/archive/2006/01/13/ClickableBackgroundImagesViaCSS.aspx*/ 
+ #headerleft a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 135px;
+}
+
+#headerleft a h1
+{
+    display: none;
+}
+
+#headercenter {
+position: inherit;
+left: 203px; 
+height: 100px;
+top: 0px;
+border: 1px none;
+border-top: none;
+border-left: none;
+border-right: none;
+background-image: url(images/lpsnheadercenter.gif);
+background-repeat: no-repeat;
+background-color: white;
+width: 800px;
+ }
+
+
+#headerright {
+position: fixed;
+left: 1020px; 
+height: 100px;
+top: 0px;
+border: 1px none;
+border-top: none;
+border-left: none;
+border-right: none;
+background-image: url(images/lpsnheaderright.gif);
+background-repeat: no-repeat;
+background-color: white;
+width: 198px;
+ }
+
+#navbar {
+position: fixed;
+top: +105px;
+width: 198px;
+ }
+
+#navbar form {
+font-weight: inherit;
+color: purple;
+padding-left: 20px;
+}
+
+#globalnavbar {
+position: fixed;
+left: 1010px;
+top: +105px;
+width: 250px;
+ }
+
+#globalnavbar ul {
+margin: 0px;
+padding: 0px;
+background-color: transparent;
+color: inherit; }
+
+#globalnavbar ul li {
+list-style-type: none;
+margin: 0px;
+padding: 0px; }
+
+#globalnavbar ul li a:link,
+#globalnavbar ul li a:visited {
+display: block;
+text-decoration: none;
+font-weight: bold;
+border: none;
+border-bottom: 0px solid;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 20px;
+color: #666666;
+background-color: transparent; }
+#globalnavbar ul li a:hover {background-color: transparent;
+border-bottom: 1px solid;
+color: #000000; }
+
+#globalnavbar ul ul li {
+margin: 0px;
+padding: 0px;
+background-color: transparent;
+font-size: 0.8em; }
+#globalnavbar ul ul li a:link,
+#globalnavbar ul ul li a:visited {
+display: block;
+text-decoration: none;
+font-weight: bold;
+border: none;
+border-bottom: 0px solid;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 25px;
+color: #333333;
+ }
+#globalnavbar ul ul li a:hover { color: #666666; 
+border-bottom: 1px solid;}
+
+
+
+
+#navbar ul {
+margin: 0px;
+padding: 0px;
+background-color: transparent;
+color: inherit; }
+
+#navbar ul li {
+list-style-type: none;
+margin: 0px;
+padding: 0px; }
+
+#navbar ul li a:link,
+#navbar ul li a:visited {
+display: block;
+text-decoration: none;
+font-weight: bold;
+border: none;
+border-bottom: 0px solid;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 20px;
+color: #666666;
+background-color: transparent; }
+#navbar ul li a:hover {background-color: transparent;
+border-bottom: 1px solid;
+color: #000000; }
+
+#navbar ul ul li {
+margin: 0px;
+padding: 0px;
+background-color: transparent;
+font-size: 0.8em; }
+#navbar ul ul li a:link,
+#navbar ul ul li a:visited {
+display: block;
+text-decoration: none;
+font-weight: bold;
+border: none;
+border-bottom: 0px solid;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 25px;
+color: #333333;
+ }
+#navbar ul ul li a:hover { color: #666666; 
+border-bottom: 1px solid;}
+
+
+li {
+text-align: left;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 1em; }
+
+
+#main-text {
+background-color: white; 
+margin-left: 198px;
+width: 800px;
+top: 0px;
+border: none;
+padding-left: 10px;
+padding-right: 10px;
+border-left: 1px gray solid;
+padding-bottom: 10px;
+position: relative;
+line-height: 1.45;
+}
+
+#main-text .taxon-head {
+color: #666666;
+font-weight: bold;
+font-style: italic;
+}
+#main-text .taxon-subhead, .taxon-subhead-basonym, .taxon-subhead-synonym, .taxon-subhead-source, .taxon-subhead-16s, .taxon-subhead-wgs, .taxon-subhead-miscgenbank, .taxon-subhead-seqaccession, .taxon-subhead-etymology, .taxon-subhead-validpub, .taxon-subhead-effectivepub, .taxon-subhead-reference, .taxon-subhead-originalpub, .taxon-subhead-nomenclaturaltype, .taxon-subhead-typespecies, .taxon-subhead-typegenus, .taxon-subhead-typeorder, .taxon-subhead-typeclass, .taxon-subhead-typestrain, .taxon-subhead-proposedtypestrain, .taxon-subhead-proposedtypespecies, .taxon-subhead-proposedtypegenus, .taxon-subhead-proposedtypeorder, .taxon-subhead-proposedbasonym, .taxon-subhead-neotype, .taxon-subhead-newtypespecies, .taxon-subhead-newtypestrain, .taxon-subhead-note, .taxon-subhead-threeletterabb {
+color: #666666;
+font-weight: bold;
+}
+#main-text .genus, .genusspecies, .specificepithet, .subspecificepithet, .genus-and-up-entry {
+color: purple;
+font-weight: bold;
+font-style: italic;
+}
+#main-text .genusspecies-subspecies, .genusspecies-subgenus, .collection, .genusspecies-quote, .genusspecies-subgenus {
+color: purple;
+font-weight: bold;
+font-style: regular;
+}
+
+#main-text .genus-in-list {
+color: purple;
+font-weight: bold;
+}
+
+#main-text .candidatus-designation {
+color: purple;
+font-weight: bold;
+font-style: italic;
+}
+
+#main-text .candidatus-name, .candidatus-quote, .candidatus-subspecies-text {
+color: purple;
+font-weight: bold;
+font-style: regular;
+}
+
+#main-text .arrow {
+color: red;
+font-weight: bold;
+
+}
+
+#main-text .greenarrow {
+color: green;
+font-weight: bold;
+
+}
+
+
+#main-text .redregulartext {
+color: red;
+font-weight: normal;
+
+}
+
+#main-text .redboldtext {
+color: red;
+font-weight: bold;
+
+}
+
+#main-text .blueregulartext {
+color: blue;
+font-weight: normal;
+
+}
+
+#main-text .blueboldtext {
+color: blue;
+font-weight: bold;
+
+}
+
+#main-text .greenregulartext {
+color: green;
+font-weight: normal;
+
+}
+
+#main-text .greenboldtext {
+color: green;
+font-weight: bold;
+
+}
+
+#main-text .purpleregulartext {
+color: purple;
+font-weight: normal;
+
+}
+
+#main-text .purpleboldtext {
+color: purple;
+font-weight: bold;
+
+}
+
+#main-text .warning {color: red;
+font-weight: bold;
+}
+
+#main-text .domainlevel {color: black;
+font-weight: bold;
+text-align: left;
+
+}
+
+#main-text .phylumlevel {color: blue;
+font-weight: bold;
+text-align: left;
+
+}
+
+#main-text .classlevel
+{
+	color: green;
+	font-weight: bold;
+	margin: 30px;
+}
+
+#main-text .subclasslevel
+{
+	color: teal;
+	font-weight: bold;
+	margin: 60px;
+}
+
+#main-text .orderlevel
+{
+	color: red;
+	font-weight: bold;
+	margin: 90px;
+}
+
+#main-text .suborderlevel
+{
+	color: magenta;
+	font-weight: bold;
+	margin: 120px;
+}
+
+#main-text .familylevel
+{
+	color: purple;
+	font-weight: bold;
+	margin: 150px;
+}
+
+#main-text .genuslevel
+{
+	color: blue;
+	font-weight: normal;
+	margin: 180px;
+	text-align: left;
+}
+
+
+
+#main-text ul li {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 1em;
+font-weight: normal;
+letter-spacing: 0px;
+word-spacing: 0px; }
+#main-text p {
+text-align: left;
+}
+
+#footer {
+margin-left: 198px;
+width: 700px;
+position: absolute;
+font-weight: normal;
+padding: 10px;
+font-size: 0.8em;
+border-left: 1px solid;
+border-right: none; 
+border-bottom: none;
+color: gray;
+text-align: center;
+}
+
+a {
+margin: 0em;
+color: #3a73f1; }
+
+a:link {
+color: #3a73f1;
+text-decoration: none; }
+a:visited {
+color: #9e1e34;
+text-decoration: none; }
+border: 1px; }
+
+a:active {
+text-decoration: none;
+color: #ffffff; }
+
+#table table {
+
+background-color: white;
+
+border-style: solid;
+
+border-color: black;
+
+border-width: thin;
+
+border-collapse: collapse;
+border: 2px black solid;
+text-align: left; 
+padding: 1%}
+#table td.heading {
+font-weight: bold;
+border-bottom: 2px black solid; }
+
+#table td {
+border: 1px black solid;
+padding: 1%; }
+
+
+#imagetable td.heading {; border;
+border-bottom: none;
+font-style: normal;
+padding-top: 10px;
+font-weight: bold;}
+
+#imagetable td.legend {font-style:italic}
+
+#imagetable table, td {
+border: none;
+padding: 2px; }
+
+/* Classification page styles */
