@@ -37,21 +37,39 @@ namespace BacterioCrawler
             {
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
+                return;
             }
 
+            string inputDelimiterStr = GetInputDelimiter();
+            if (inputDelimiterStr == null)
+            {
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+                return;
+            }
+            char inputDelimiter = inputDelimiterStr[0];
+
             string[] sourceLines = LoadFileByLines(inputFileName);
+            if (sourceLines == null)
+            {
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+                return;
+            }
             Dictionary<string, string[]> keywords = LoadKeywords(KEYWORD_FILE_NAME);
             GoogleConfiguration googleConfiguration = LoadGoogleConfiguration();
 
             if (sourceLines != null && sourceLines.Length > 0 && keywords != null && googleConfiguration != null)
             {
+                PrintParameters(inputFileName, inputDelimiter, KEYWORD_FILE_NAME);
+
                 try
                 {
                     PrepareTmpHtmlFolder(TEMP_FOLDER);
 
-                    PrepareOutFile(OUT_FILE_NAME, keywords);
+                    PrepareOutFile(OUT_FILE_NAME, keywords, inputDelimiter);
 
-                    DoSearch(sourceLines, keywords, googleConfiguration);
+                    DoSearch(sourceLines, keywords, googleConfiguration, inputDelimiter);
 
                     Console.WriteLine("Done.");
                 }
@@ -65,6 +83,51 @@ namespace BacterioCrawler
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+        }
+
+        private static void PrintParameters(string inputFileName, char inputDelimiter, string keywordFileName)
+        {
+            Console.WriteLine("Following parameters loaded:");
+            Console.WriteLine("Input file: {0}", inputFileName);
+            Console.WriteLine("Input file delimiter: {0}", inputDelimiter);
+            Console.WriteLine("Keyword file: {0}", keywordFileName);
+        }
+
+        /// <summary>
+        /// Tries to get input file delimiter from application config. If non-null is returned, the [0] char is to be used as delimiter.
+        /// </summary>
+        /// <returns></returns>
+        private static string GetInputDelimiter()
+        {
+            try
+            {
+                var appSettings = ConfigurationManager.AppSettings;
+                if (appSettings.Count == 0)
+                {
+                    Console.WriteLine("Missing configuration, can't load input file delimiter.");
+                    return null;
+                }
+
+                if (appSettings["inputDelimiter"] == null)
+                {
+                    Console.WriteLine("Missing 'inputDelimiter' field in configuration.");
+                    return null;
+                }
+
+                string delim = appSettings["inputDelimiter"];
+                if (delim.Length != 1)
+                {
+                    Console.WriteLine("Only one-character delimiters are allowed, got: {0}.", delim);
+                    return null;
+                }
+
+                return delim;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Unexpected exception: {0}.", ex.Message);
+                return null;
+            }
         }
 
         /// <summary>
@@ -113,10 +176,10 @@ namespace BacterioCrawler
             Directory.CreateDirectory(folderName);
         }
 
-        private static void DoSearch(string[] sourceLines, Dictionary<string, string[]> keywords, GoogleConfiguration googleConfiguration)
+        private static void DoSearch(string[] sourceLines, Dictionary<string, string[]> keywords, GoogleConfiguration googleConfiguration, char inputDelimiter)
         {
             Console.WriteLine("Performing search.");
-            BacterioSearcher bacterioSearcher = new BacterioSearcher(googleConfiguration, keywords, OUT_FILE_NAME, TEMP_FOLDER);
+            BacterioSearcher bacterioSearcher = new BacterioSearcher(googleConfiguration, keywords, OUT_FILE_NAME, TEMP_FOLDER, inputDelimiter);
             bacterioSearcher.DoSearch(sourceLines);
         }
 
@@ -125,7 +188,7 @@ namespace BacterioCrawler
         /// </summary>
         /// <param name="fileName">Name of the output file.</param>
         /// <param name="keywords">Keywords to create headers in the output file.</param>
-        private static void PrepareOutFile(string fileName, Dictionary<string, string[]> keywords)
+        private static void PrepareOutFile(string fileName, Dictionary<string, string[]> keywords, char inputDelimiter)
         {
             Console.WriteLine("Preparing output file {0}.", fileName);
 
@@ -141,7 +204,7 @@ namespace BacterioCrawler
             {
                 foreach(string item in headerLine)
                 {
-                    writer.Write(item + ';');
+                    writer.Write(item + inputDelimiter);
                 }
                 writer.WriteLine("");
             }
@@ -196,7 +259,7 @@ namespace BacterioCrawler
             if (!File.Exists(fileName))
             {
                 Console.WriteLine("File " + fileName + " not found.");
-                return new string[0];
+                return null;
             } else
             {
                 return File.ReadAllLines(fileName);

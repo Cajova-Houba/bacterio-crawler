@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.idea
+/app/BacterioCrawler/BacterioCrawler/.vs/BacterioCrawler/v15/ipch/1f8d5efd2d92a88e.ipch
+/app/BacterioCrawler/BacterioCrawler/.vs/BacterioCrawler/v15/Browse.VC.opendb
+/app/BacterioCrawler/BacterioCrawler/.vs/BacterioCrawler/v15/Browse.VC.db

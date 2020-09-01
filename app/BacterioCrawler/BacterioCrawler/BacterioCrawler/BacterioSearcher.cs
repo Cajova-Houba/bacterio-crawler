@@ -5,57 +5,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text.RegularExpressions;
 
 namespace BacterioCrawler
 {
-    class Parser
-    {
-        /// <summary>
-        /// Regex for identifying empty items in one line of source file.
-        /// </summary>
-        private static readonly Regex emptyItemRegex = new Regex(" [pcofgs]__[\n]?$", RegexOptions.Compiled);
-
-
-        /// <summary>
-        /// Regex for identifying items in one line of source file.
-        /// </summary>
-        private static readonly Regex itemRegex = new Regex("[kpcofgs]__([a-zA-Z]+)", RegexOptions.Compiled);
-
-        /// <summary>
-        /// Checks whether the given item is emptyItem or not.
-        /// </summary>
-        /// <param name="item">One item from line from source file.</param>
-        /// <returns>True if the item is empty (has no contents besides leading 'letter'__.</letter></returns>
-        public static bool IsEmptyItem(string item)
-        {
-            return item.Length == 0 || emptyItemRegex.IsMatch(item);
-        }
-
-        /// <summary>
-        /// Parse search term from line item.
-        /// </summary>
-        /// <param name="item">Non empty line item.</param>
-        /// <returns>Search term nor null if no is found.</returns>
-        public static string ParseTermFromLineItem(string item)
-        {
-            MatchCollection matches = itemRegex.Matches(item);
-            if (matches.Count > 0 && matches[0].Groups.Count > 1)
-            {
-                return matches[0].Groups[1].Value;
-            }
-            else
-            {
-                return null;
-            }
-        }
-
-        public static string[] ParseLine(string line)
-        {
-            return line.Split(';');
-        }
-
-    }
 
     class BacterioSearcher
     {
@@ -87,12 +39,24 @@ namespace BacterioCrawler
 
         private readonly string tempFolder;
 
-        public BacterioSearcher(GoogleConfiguration googleConfiguration, Dictionary<string, string[]> keywords, string outFileName, string tempFolder)
+        private readonly char inputDelimiter;
+
+        private Parser parser;
+
+        public BacterioSearcher(GoogleConfiguration googleConfiguration, Dictionary<string, string[]> keywords, string outFileName, string tempFolder, char inputDelimiter)
         {
             this.googleConfiguration = googleConfiguration;
             this.keywords = keywords;
             this.outFileName = outFileName;
             this.tempFolder = tempFolder;
+            this.inputDelimiter = inputDelimiter;
+
+            InitParser();
+        }
+
+        private void InitParser()
+        {
+            parser = new Parser(inputDelimiter);
         }
 
         public void DoSearch(string[] sourceLines)
@@ -105,13 +69,8 @@ namespace BacterioCrawler
 
             foreach (string line in sourceLines)
             {
-                int progress = 100*linesProcessed / sourceLines.Length;
 
-                if (nextProgMsg <= progress) 
-                {
-                    Console.WriteLine("Progess: {0}%.", nextProgMsg);
-                    nextProgMsg += 10;
-                }
+                nextProgMsg = ReportProgress(linesProcessed, sourceLines.Length, nextProgMsg);
 
                 if (line[0] != COMMENT_CHAR)
                 {
@@ -124,22 +83,48 @@ namespace BacterioCrawler
                     // either get results from searchMap (kind of a cache)
                     // or find it on bacterio
                     string[] searchRes;
-                    if (!searchCache.ContainsKey(term))
+                    if (term == null)
                     {
-                        // search basterio
-                        searchRes = SearchForTerm(term, keywords);
-                        searchCache[term] = searchRes;
-                    }
-                    else
+                        Console.WriteLine("Warning: Could not pick term to search for from line '{0}'.", line);
+                    } else
                     {
-                        searchRes = searchCache[term];
-                    }
+                        if (!searchCache.ContainsKey(term))
+                        {
+                            // search bacterio
+                            searchRes = SearchForTerm(term, keywords);
+                            searchCache[term] = searchRes;
+                        }
+                        else
+                        {
+                            searchRes = searchCache[term];
+                        }
 
-                    SaveSearchResult(lineItems, searchRes);
+                        SaveSearchResult(lineItems, searchRes);
+                    }
                 }
 
                 linesProcessed++;
             }
+        }
+
+        /// <summary>
+        /// Reports current search progress if the progress is > nextProgMsg.
+        /// </summary>
+        /// <param name="linesProcessed"></param>
+        /// <param name="totalLineCount"></param>
+        /// <param name="nextProgMsg">If progress is reported, this variable is incremented and returned.</param>
+        /// <returns></returns>
+        private int ReportProgress(int linesProcessed, int totalLineCount, int nextProgMsg)
+        {
+            int progress = 100 * linesProcessed / totalLineCount;
+
+            if (nextProgMsg <= progress)
+            {
+                Console.WriteLine("Progess: {0}%.", nextProgMsg);
+                nextProgMsg += 10;
+            }
+
+            return nextProgMsg;
         }
 
         /// <summary>
@@ -157,7 +142,7 @@ namespace BacterioCrawler
             {
                 foreach (string item in lineToWrite)
                 {
-                    writer.Write(item + ';');
+                    writer.Write(item + inputDelimiter);
                 }
                 writer.WriteLine("");
             }
@@ -283,7 +268,7 @@ namespace BacterioCrawler
         /// <returns>Line split to items.</returns>
         private string[] ProcessSourceLine(string line)
         {
-            return Parser.ParseLine(line);
+            return parser.ParseLine(line);
         }
     }
 }
