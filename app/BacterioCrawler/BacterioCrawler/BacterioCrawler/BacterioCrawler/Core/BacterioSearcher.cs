@@ -1,8 +1,8 @@
-﻿using BacterioCrawler.BacterioCrawler.Results;
+﻿using BacterioCrawler.BacterioCrawler.Core.Cache;
+using BacterioCrawler.BacterioCrawler.Results;
 using BacterioCrawler.BacterioCrawler.Search;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net;
 
@@ -48,17 +48,18 @@ namespace BacterioCrawler.Core
 
         private readonly Dictionary<string, string[]> keywords;
 
-        private readonly string outFileName;
+        /// <summary>
+        /// Interface for storing and retrieving temp data.
+        /// </summary>
+        private readonly ITempDataCache tempDataCache;
 
-        private readonly string tempFolder;
-
-        public BacterioSearcher(ISearchService searchService, Dictionary<string, string[]> keywords, string tempFolder, IResultsSaver resultsSaver, Parser parser)
+        public BacterioSearcher(ISearchService searchService, Dictionary<string, string[]> keywords, IResultsSaver resultsSaver, Parser parser, ITempDataCache tempDataCache)
         {
             this.searchService = searchService;
             this.keywords = keywords;
-            this.tempFolder = tempFolder;
             this.resultsSaver = resultsSaver;
             this.parser = parser;
+            this.tempDataCache = tempDataCache;
         }
 
         public void DoSearch(string[] sourceLines)
@@ -157,7 +158,7 @@ namespace BacterioCrawler.Core
         private string[] SearchForKeywords(string term, Dictionary<string, string[]> keywords)
         {
             List<string> res = new List<string>();
-            string content = File.ReadAllText(tempFolder +"/" + term + ".html");
+            string content = tempDataCache.RetrieveData(term);
             
             foreach(string keyword in keywords.Keys)
             {
@@ -198,7 +199,8 @@ namespace BacterioCrawler.Core
         {
             using (WebClient client = new WebClient())
             {
-                client.DownloadFile(pageLink, tempFolder + "/" +term+".html");
+                byte[] data = client.DownloadData(pageLink);
+                tempDataCache.StoreTempData(term, data);
             }
         }
 

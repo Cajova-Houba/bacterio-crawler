@@ -6,6 +6,7 @@ using BacterioCrawler.Core;
 using BacterioCrawler.Search.Google;
 using BacterioCrawler.BacterioCrawler.Search.Google;
 using BacterioCrawler.BacterioCrawler.Results;
+using BacterioCrawler.BacterioCrawler.Core.Cache;
 
 namespace BacterioCrawler
 {
@@ -169,10 +170,10 @@ namespace BacterioCrawler
         {
             Console.WriteLine("Performing search.");
             BacterioSearcher bacterioSearcher = new BacterioSearcher(new SearchService(googleConfiguration), 
-                keywords, 
-                TEMP_FOLDER, 
+                keywords,
                 new CsvFileResultsSaver(OUT_FILE_NAME, inputDelimiter), 
-                new Parser(inputDelimiter)
+                new Parser(inputDelimiter),
+                new HtmlFileTempDataCache(TEMP_FOLDER)
             );
             bacterioSearcher.DoSearch(sourceLines);
         }

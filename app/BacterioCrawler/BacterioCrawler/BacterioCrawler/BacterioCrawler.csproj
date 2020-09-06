@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BacterioCrawler\Core\BacterioSearcher.cs" />
+    <Compile Include="BacterioCrawler\Core\Cache\HtmlFileTempDataCache.cs" />
+    <Compile Include="BacterioCrawler\Core\Cache\ITempDataCache.cs" />
     <Compile Include="BacterioCrawler\Core\Parser.cs" />
     <Compile Include="BacterioCrawler\Program.cs" />
     <Compile Include="BacterioCrawler\Results\CsvFileResultsSaver.cs" />
