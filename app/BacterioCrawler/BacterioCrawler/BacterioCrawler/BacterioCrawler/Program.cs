@@ -2,24 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Configuration;
+using BacterioCrawler.Core;
+using BacterioCrawler.Search.Google;
+using BacterioCrawler.BacterioCrawler.Search.Google;
 
 namespace BacterioCrawler
 {
-    /// <summary>
-    /// Message-like class for storing google-related config.
-    /// </summary>
-    class GoogleConfiguration
-    {
-        public readonly string cx;
-
-        public readonly string key;
-
-        public GoogleConfiguration(string cx, string key)
-        {
-            this.cx = cx;
-            this.key = key;
-        }
-    }
 
     class Program
     {
@@ -179,7 +167,7 @@ namespace BacterioCrawler
         private static void DoSearch(string[] sourceLines, Dictionary<string, string[]> keywords, GoogleConfiguration googleConfiguration, char inputDelimiter)
         {
             Console.WriteLine("Performing search.");
-            BacterioSearcher bacterioSearcher = new BacterioSearcher(googleConfiguration, keywords, OUT_FILE_NAME, TEMP_FOLDER, inputDelimiter);
+            BacterioSearcher bacterioSearcher = new BacterioSearcher(new SearchService(googleConfiguration), keywords, OUT_FILE_NAME, TEMP_FOLDER, inputDelimiter);
             bacterioSearcher.DoSearch(sourceLines);
         }
 

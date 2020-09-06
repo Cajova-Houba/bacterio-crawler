@@ -62,9 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BacterioSearcher.cs" />
-    <Compile Include="Parser.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BacterioCrawler\Core\BacterioSearcher.cs" />
+    <Compile Include="BacterioCrawler\Core\Parser.cs" />
+    <Compile Include="BacterioCrawler\Program.cs" />
+    <Compile Include="BacterioCrawler\Search\ISearchService.cs" />
+    <Compile Include="BacterioCrawler\Search\Google\SearchService.cs" />
+    <Compile Include="BacterioCrawler\Search\Google\GoogleConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

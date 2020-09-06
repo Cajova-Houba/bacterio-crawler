@@ -1,12 +1,11 @@
-﻿using Google.Apis.Customsearch.v1;
-using Google.Apis.Services;
+﻿using BacterioCrawler.BacterioCrawler.Search;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 
-namespace BacterioCrawler
+namespace BacterioCrawler.Core
 {
 
     class BacterioSearcher
@@ -31,7 +30,10 @@ namespace BacterioCrawler
         /// </summary>
         private static readonly string KEYWORD_NOT_FOUND = "-";
 
-        private readonly GoogleConfiguration googleConfiguration;
+        /// <summary>
+        /// Interface to access search engine API.
+        /// </summary>
+        private readonly ISearchService searchService;
 
         private readonly Dictionary<string, string[]> keywords;
 
@@ -43,9 +45,9 @@ namespace BacterioCrawler
 
         private Parser parser;
 
-        public BacterioSearcher(GoogleConfiguration googleConfiguration, Dictionary<string, string[]> keywords, string outFileName, string tempFolder, char inputDelimiter)
+        public BacterioSearcher(ISearchService searchService, Dictionary<string, string[]> keywords, string outFileName, string tempFolder, char inputDelimiter)
         {
-            this.googleConfiguration = googleConfiguration;
+            this.searchService = searchService;
             this.keywords = keywords;
             this.outFileName = outFileName;
             this.tempFolder = tempFolder;
@@ -156,7 +158,7 @@ namespace BacterioCrawler
         /// <returns>List representing occurrence of keywords.</returns>
         private string[] SearchForTerm(string term, Dictionary<string, string[]> keywords)
         {
-            string pageLink = SearchTerm(term);
+            string pageLink = searchService.SearchForTerm(term);
             if (pageLink == null)
             {
                 Console.Write("No link for '{0}' found.", term);
@@ -218,28 +220,6 @@ namespace BacterioCrawler
             using (WebClient client = new WebClient())
             {
                 client.DownloadFile(pageLink, tempFolder + "/" +term+".html");
-            }
-        }
-
-        /// <summary>
-        /// This method searches bacterio database and returns link to 
-        /// the first page returned by search engine.
-        /// </summary>
-        /// <param name="term">Term to search for.</param>
-        /// <returns>Link to bacterio page with given term.</returns>
-        private string SearchTerm(string term)
-        {
-            var searchService = new CustomsearchService(new BaseClientService.Initializer { ApiKey = googleConfiguration.key });
-            var listRequest = searchService.Cse.Siterestrict.List(term);
-            listRequest.Cx = googleConfiguration.cx;
-            var search = listRequest.Execute();
-
-            if (search.Items != null && search.Items.Count > 0)
-            {
-                return search.Items[0].Link;
-            } else
-            {
-                return null;
             }
         }
 

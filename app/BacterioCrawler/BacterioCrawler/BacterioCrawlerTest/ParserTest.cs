@@ -1,4 +1,5 @@
 using BacterioCrawler;
+using BacterioCrawler.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BacterioCrawlerTest
