@@ -1,4 +1,5 @@
-﻿using BacterioCrawler.BacterioCrawler.Search;
+﻿using BacterioCrawler.BacterioCrawler.Results;
+using BacterioCrawler.BacterioCrawler.Search;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -35,30 +36,29 @@ namespace BacterioCrawler.Core
         /// </summary>
         private readonly ISearchService searchService;
 
+        /// <summary>
+        /// Interface for saving results.
+        /// </summary>
+        private readonly IResultsSaver resultsSaver;
+
+        /// <summary>
+        /// Parser to be used for parsing source. 
+        /// </summary>
+        private readonly Parser parser;
+
         private readonly Dictionary<string, string[]> keywords;
 
         private readonly string outFileName;
 
         private readonly string tempFolder;
 
-        private readonly char inputDelimiter;
-
-        private Parser parser;
-
-        public BacterioSearcher(ISearchService searchService, Dictionary<string, string[]> keywords, string outFileName, string tempFolder, char inputDelimiter)
+        public BacterioSearcher(ISearchService searchService, Dictionary<string, string[]> keywords, string tempFolder, IResultsSaver resultsSaver, Parser parser)
         {
             this.searchService = searchService;
             this.keywords = keywords;
-            this.outFileName = outFileName;
             this.tempFolder = tempFolder;
-            this.inputDelimiter = inputDelimiter;
-
-            InitParser();
-        }
-
-        private void InitParser()
-        {
-            parser = new Parser(inputDelimiter);
+            this.resultsSaver = resultsSaver;
+            this.parser = parser;
         }
 
         public void DoSearch(string[] sourceLines)
@@ -101,7 +101,7 @@ namespace BacterioCrawler.Core
                             searchRes = searchCache[term];
                         }
 
-                        SaveSearchResult(lineItems, searchRes);
+                        resultsSaver.AddSearchResults(lineItems, searchRes);
                     }
                 }
 
@@ -127,27 +127,6 @@ namespace BacterioCrawler.Core
             }
 
             return nextProgMsg;
-        }
-
-        /// <summary>
-        /// Appends one line containing the search results into out file.
-        /// </summary>
-        /// <param name="lineItems">Line from source file.</param>
-        /// <param name="searchRes">Search results for one term.</param>
-        private void SaveSearchResult(string[] lineItems, string[] searchRes)
-        {
-            string[] lineToWrite = new string[lineItems.Length + searchRes.Length];
-            lineItems.CopyTo(lineToWrite, 0);
-            searchRes.CopyTo(lineToWrite, lineItems.Length);
-
-            using (var writer = new StreamWriter(outFileName, true))
-            {
-                foreach (string item in lineToWrite)
-                {
-                    writer.Write(item + inputDelimiter);
-                }
-                writer.WriteLine("");
-            }
         }
 
         /// <summary>

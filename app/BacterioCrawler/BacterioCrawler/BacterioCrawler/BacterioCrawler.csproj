@@ -65,6 +65,8 @@
     <Compile Include="BacterioCrawler\Core\BacterioSearcher.cs" />
     <Compile Include="BacterioCrawler\Core\Parser.cs" />
     <Compile Include="BacterioCrawler\Program.cs" />
+    <Compile Include="BacterioCrawler\Results\CsvFileResultsSaver.cs" />
+    <Compile Include="BacterioCrawler\Results\IResultsSaver.cs" />
     <Compile Include="BacterioCrawler\Search\ISearchService.cs" />
     <Compile Include="BacterioCrawler\Search\Google\SearchService.cs" />
     <Compile Include="BacterioCrawler\Search\Google\GoogleConfiguration.cs" />

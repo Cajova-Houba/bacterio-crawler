@@ -5,6 +5,7 @@ using System.Configuration;
 using BacterioCrawler.Core;
 using BacterioCrawler.Search.Google;
 using BacterioCrawler.BacterioCrawler.Search.Google;
+using BacterioCrawler.BacterioCrawler.Results;
 
 namespace BacterioCrawler
 {
@@ -167,7 +168,12 @@ namespace BacterioCrawler
         private static void DoSearch(string[] sourceLines, Dictionary<string, string[]> keywords, GoogleConfiguration googleConfiguration, char inputDelimiter)
         {
             Console.WriteLine("Performing search.");
-            BacterioSearcher bacterioSearcher = new BacterioSearcher(new SearchService(googleConfiguration), keywords, OUT_FILE_NAME, TEMP_FOLDER, inputDelimiter);
+            BacterioSearcher bacterioSearcher = new BacterioSearcher(new SearchService(googleConfiguration), 
+                keywords, 
+                TEMP_FOLDER, 
+                new CsvFileResultsSaver(OUT_FILE_NAME, inputDelimiter), 
+                new Parser(inputDelimiter)
+            );
             bacterioSearcher.DoSearch(sourceLines);
         }
 
